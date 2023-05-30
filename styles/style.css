@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto&display=swap'); 
+
+:root{
+    --primary-color: #fed001;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+}
+
+p, 
+a{
+    font-size: 1.6rem;
+}
+
+h1, 
+h2, 
+h3{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
+nav a{
+    color: inherit;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
+    color: inherit;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.wrapperContainer-dark{
+    background-color: #2a2a2a;
+    color: white; 
+}
+
+.wrapperContainer-fixed{
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.wrappercontainer-padded{
+    padding-top: 12rem;
+}
+
+.wrapperContainer-light{
+    background-color: #fafafa;
+    
+}
+
+.wrapperContainer-dark2{
+    background-color: #003464;
+    color: white;
+}
+
+.container{
+    max-width: 1276px;
+    margin: auto;
+}
+
+.section__title{
+    padding: 7rem 0;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header__nav ul{
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+}
+
+.header__nav a{
+    padding: .75em 1.15em;
+    border: 1px solid;
+    text-decoration: none;
+}
+
+.header__nav a:hover{
+    background-color: var(--primary-color);
+    color: #2a2a2a;
+    transition: 0.3s;
+}
+
+.wrapperContainer-banner{
+    background-image: linear-gradient(white, var(--primary-color));
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.banner__title{
+    margin-bottom: 5rem;
+    font-weight: bold;
+}
+
+.cursos{
+    text-align: center;
+}
+
+.cursos__container{
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.cursos__card{
+    flex: 1;
+}
+
+.cursos__card img{
+    display: block;
+    width: 100%;
+}
+
+.cursos__card h3{
+    font-size: 2.4rem;
+    margin-top: 2rem;
+}
+
+.cursos__card p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+}
+
+.cursos__card__content{
+    padding: 2rem 1.25rem;
+    border: 1px solid #dedbdb;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
+}
+
+.section__btn{
+    margin: 7rem 0;
+}
+
+.escola{
+    display: flex;
+    gap: 7rem;
+    padding: 7rem 0 0;
+}
+
+.escola_title{
+    font-size: 3.2;
+    margin-top: 1rem;
+}
+
+.container__escola p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-top: 4rem;
+}
+
+.contatos__address{
+    text-align: right;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding: 3rem 0;
+}
+
+.rodape{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+.rodape a{
+    color: inherit;
+}
